@@ -1,0 +1,1 @@
+require('sools-management-client/setup')
