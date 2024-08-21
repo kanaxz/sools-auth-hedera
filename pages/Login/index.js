@@ -1,7 +1,7 @@
 const template = require('./template.html')
 const { auth, navigator } = require('sools-hedera/global')
 const Component = require('sools-hedera/Component')
-const Credentials = require('sools-management/Credentials')
+const Credentials = require('sools-auth/Credentials')
 require('./style.scss')
 
 module.exports = class Home extends Component {

@@ -1,1 +1,1 @@
-require('sools-management-client/setup')
+require('sools-auth-client/setup')

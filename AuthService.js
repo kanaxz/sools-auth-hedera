@@ -1,8 +1,8 @@
 const axios = require('axios')
 const Service = require('sools-hedera/Service')
-const { User } = require('sools-management')
+const { User } = require('sools-auth')
 const context = require('sools-core-client/context')
-const { defaultLoad } = require('sools-management/utils')
+const { defaultLoad } = require('sools-auth/utils')
 module.exports = class AuthService extends Service {
   constructor(url) {
     super()
