@@ -22,7 +22,7 @@ module.exports = class AuthService extends Service {
   }
 
   async request(action, payload) {
-    const url = `${this.url}/api/auth${action}`
+    const url = `${this.url}/auth${action}`
     const response = await axios({
       url,
       method: 'POST',

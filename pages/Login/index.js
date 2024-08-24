@@ -1,10 +1,9 @@
 const template = require('./template.html')
 const { auth, navigator } = require('sools-hedera/global')
 const Component = require('sools-hedera/Component')
-const Credentials = require('sools-auth/Credentials')
 require('./style.scss')
 
-module.exports = class Home extends Component {
+module.exports = class Login extends Component {
 
   onInit() {
 
@@ -20,7 +19,4 @@ module.exports = class Home extends Component {
   .define({
     name: 'login-page',
     template,
-  })
-  .variables({
-    Credentials
   })
