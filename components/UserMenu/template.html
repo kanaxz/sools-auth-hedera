@@ -4,12 +4,12 @@
       <label>{{context.@user?.@username}}</label>
     </header>
     <div class="list">
-      <a :v-link="`/user/${context.@user?.username}`">My profile</a>
-      <a :v-link="'/logout'">Logout</a>
+      <a @link="`/user/${context.@user?.username}`">My profile</a>
+      <a @link="'/logout'">Logout</a>
     </div>
   </div>
   <div class="logged-out">
-    <a :v-link="'/login'">
+    <a @link="'/login'">
       Login
     </a>
   </div>

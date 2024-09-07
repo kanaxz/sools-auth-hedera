@@ -1,6 +1,6 @@
 {
  "name": "sools-auth-hedera",
- "version": "1.7.0",
+ "version": "1.8.0",
  "description": "",
  "main": "index.js",
  "scripts": {
@@ -12,10 +12,10 @@
   "axios": "^1.5.1",
   "sools-core-client": "^1.19.0",
   "sools-core-hedera": "^1.9.0",
-  "sools-hedera": "^1.10.0",
+  "sools-hedera": "^1.11.0",
   "sools-auth": "^1.18.0",
   "sools-auth-client": "^1.8.0",
-  "sools-modeling-hedera": "^1.7.0"
+  "sools-modeling-hedera": "^1.8.0"
  },
  "repository": {
   "type": "git",
